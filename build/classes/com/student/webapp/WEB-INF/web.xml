@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>addstudentservlet</servlet-name>
+		<servlet-class>com.student.addstudentservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addstudentservlet</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+    	<servlet-name>studentinsert1</servlet-name>
+    	<servlet-class>com.student.studentinsert1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>studentinsert1</servlet-name>
+    	<url-pattern>/insertstu</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+		<servlet-name>updateStudentServlet</servlet-name>
+		<servlet-class>com.student.UpdateStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateStudentServlet</servlet-name>
+		<url-pattern>/updatestu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deletestudentServlet</servlet-name>
+		<servlet-class>com.student.DeletestudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deletestudentServlet</servlet-name>
+		<url-pattern>/deletestu</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</web-app>
